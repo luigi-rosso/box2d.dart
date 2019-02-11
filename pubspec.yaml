@@ -6,12 +6,7 @@ authors:
 - Filip Hracek <filiph@google.com>
 description: A Dart 2D physics engine
 homepage: https://github.com/google/box2d.dart
+environment:
+  sdk: ">=2.0.0-dev.58.0 <3.0.0"
 dependencies:
   vector_math: '>=2.0.0 <3.0.0'
-dev_dependencies:
-  browser: '>=0.10.0 <0.11.0'
-transformers:
-- $dart2js:
-    commandLineOptions:
-    - --trust-type-annotations
-    - --trust-primitives
